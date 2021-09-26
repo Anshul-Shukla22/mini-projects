@@ -1,0 +1,44 @@
+
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+#main{
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+}
+#panel{
+    padding: 20px;
+    height: 30%;
+    width: 70%;
+    border: 2px solid black;
+    display: flex;
+}
+.circle{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    border: 2px solid rgb(219, 76, 76);
+}
+#bg{
+    height: 100%;
+    width: 100%;
+    background-color: rosybrown;
+    border-radius: 20px;
+    position: absolute;
+    top: 0%;
+    display:none;
+}
+button{
+    height: 50px;
+    width: 50px;
+    right: 10%;
+    position: absolute;
+}

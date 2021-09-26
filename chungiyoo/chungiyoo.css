@@ -1,0 +1,643 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'voyage';
+    
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+    /* overflow-x: hidden; */
+}
+.mainbox{
+    height: 5800px;
+    width: 100%;
+    background-color: #F3eee8;
+}
+.nav{
+    position: absolute;
+    z-index: 99999;
+    position: fixed;
+    display: flex;
+    top: 40px;
+    height: 140px;
+    width: 100%;
+    /* background-color: yellow; */
+}
+.ele1{
+    position: absolute;
+    left: 4%;
+    height: 100%;
+    width: 25%;
+    /* background-color: red; */
+}
+.ele1 .a{
+    
+    
+    font-weight: 500;
+    height: 22%;
+    position: relative;
+    left: 0%;
+    font-size: 48px;
+}
+.ele1 .b{
+    display: inline;
+    font-weight: 500;
+    height: 60%;
+    position: relative;
+    left: 5%;
+    font-size: 48px;
+}
+.ele1 a{
+    color: black;
+    text-decoration: none;
+}
+.ele3 {
+    position: absolute;
+    top: 20%;
+    width: 2.5%;
+    right: 3%;
+    /* background-color: black; */
+}
+.ele2{
+    position: absolute;
+    left: 40%;
+    top: 8%;
+    
+    width: 20%;
+    /* background-color: rgb(173, 164, 164); */
+    height: 70px;
+}
+.ele2 a{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    
+}
+.text{
+    height: 76%;
+    left: 21%;
+    position: absolute;
+    top: 34%;
+}
+.art{
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    justify-content: center;
+    /* background-color: aqua; */
+    font-size: 280px;
+    left: 25%;
+    top: 345px;
+    font-family: Voyage;
+}
+.art h1{
+    font-family: 'voyage';
+    color: pink;
+}
+body::-webkit-scrollbar{
+    width: 10px;
+    height: 20%;
+    background-color: rgb(170, 165, 165);
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(70, 67, 67);
+    border-radius: 100px;
+}
+.story{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: #e3dacd;
+    top: 1200px;
+}
+.capsule{
+    position: absolute;
+    height: 60px;
+    width: 30%;
+    left: 50%;
+    transform: translate(-50%,0);
+    top: -30px;
+    background-color: #e3dacd;
+    border-radius: 100px;
+    
+}
+.capsule .txt{
+    font-family:serif ;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+}
+.anim{
+    height: 2px;
+    width: 45%;
+    top: 40px;
+    background-color: black;
+    position: absolute;
+    left: 28%;
+    transition: 0.4s;
+}
+.capsule:hover .anim{
+    width: 0%;
+}
+.by{
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    transform: translate(-50%,0);
+    z-index: 70;
+    height: 10%;
+    width: 35%;
+    /* background-color: tomato; */
+    font-size: 40px;
+    
+}
+.by h4{
+    font-family: serif
+}
+.heading{
+    position: relative;
+    height: 60%;
+    width: 100%;
+    font-size: 50px;
+    /* background-color: tomato; */
+    position: absolute;
+    top: 20%;
+}
+.heading .h1{
+    left: 50%;
+    font-size: 65px;
+ transform: translate(-50%,0);
+    position: absolute;
+}
+#he1{
+    position: absolute;
+    width: 55%;
+    left: 52%;
+    
+}
+#he2{
+    position: absolute;
+    top: 18%;
+}
+#he3{
+    position: absolute;
+    top: 36%;
+}
+#he4{
+    position: absolute;
+    top: 54%;
+}
+.svghead{
+    height: 100vh;
+    width: 100%;
+    /* background-color: tomato; */
+    top: 285%;
+    position: absolute;
+}
+.svghead .h1{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    height: 30%;
+    width: 45%;
+    /* background-color: teal; */
+    font-size: 160px;
+}
+.svghead .h2{
+    top: 22%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    height: 30%;
+    width: 63%;
+    /* background-color: teal; */
+    font-size: 160px;
+}
+.svghead .h3{
+    top: 45%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    height: 30%;
+    width: 30%;
+    /* background-color: teal; */
+    font-size: 160px;
+}
+.cardpg{
+    height: 220%;
+    width: 100%;
+    background-color: #FFE699;
+    top: 400%;
+    position: absolute;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top: 1px transparent;
+}
+.cardpg .cardset{
+    display: flex;
+    height: 300px;
+    width: 30%;
+    /* background-color: yellow; */
+    left: 50%;
+    transform: translate(-50%,0);
+    position: absolute;
+}
+.cardpg .card1{
+    z-index: 99;
+    height: 250px;
+    width: 50%;
+    /* background-color: #d88a1d; */
+    transform: translate(+20%,0) rotate(-5deg);
+    transition: cubic-bezier(0.19, 1, 0.22, 1)0.7s;
+    transform-origin: bottom;
+    border-radius: 20px;
+}
+.cardpg .card1 video{
+    height: 100%;
+    border-radius: 20px;
+
+}
+.cardpg .cardset:hover .card1{
+    transform: rotate(-10deg);
+}
+.cardpg .card2{
+    height: 250px;
+    border-radius: 20px;
+    width: 50%;
+    /* background-color: #d88a1d; */
+    transform: translate(-10%,0);
+    transition: cubic-bezier(0.19, 1, 0.22, 1)0.7s;
+    transform-origin: bottom;
+}
+.cardpg .card2 img{
+    height: 100%;
+    border-radius: 20px;            
+}
+.cardpg .cardset:hover .card2{
+    transform: rotate(+10deg);
+}
+.cardpg .frac{
+    position: absolute;
+    top: 270px;
+    left: 177px;
+    font-size: 35px;
+}
+.cardpg .ill{
+    position: absolute;
+    top: 300px;
+    left: 70px;
+    font-size: 55px;
+}
+.cardpg .cardset:hover .ill{
+font-size: 60px;
+transition: cubic-bezier(0.19, 1, 0.22, 1)0.7s;
+transform-origin: center;
+}
+.cardpg .txt{
+    position: absolute;
+    top: 400px;
+    width: 90%;
+    font-size: 20px;
+    left: 30%;
+}
+.cardpg .txt :nth-child(2){
+position: absolute;
+left: 20px;
+}
+
+.cardpg2{
+    z-index: 100;
+    height: 220%;
+    width: 100%;
+    background-color: #ffffff;
+    top: 500%;
+    position: absolute;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top: 1px transparent;
+}
+.cardpg2 .cardset{
+    display: flex;
+    height: 300px;
+    width: 30%;
+    /* background-color: yellow; */
+    left: 50%;
+    transform: translate(-50%,0);
+    position: absolute;
+}
+.cardpg2 .card1{
+    z-index: 99;
+    height: 250px;
+    width: 50%;
+    /* background-color: #d88a1d; */
+    transform: translate(+20%,0) rotate(-5deg);
+    transition: cubic-bezier(0.19, 1, 0.22, 1)0.7s;
+    transform-origin: bottom;
+    border-radius: 20px;
+}
+.cardpg2 .card1 img{
+    height: 100%;
+    border-radius: 20px;
+
+}
+.cardpg2 .cardset:hover .card1{
+    transform: rotate(-10deg);
+}
+.cardpg2 .card2{
+    height: 250px;
+    border-radius: 20px;
+    width: 50%;
+    /* background-color: #d88a1d; */
+    transform: translate(-10%,0);
+    transition: cubic-bezier(0.19, 1, 0.22, 1)0.7s;
+    transform-origin: bottom;
+}
+.cardpg2 .card2 img{
+    height: 100%;
+    border-radius: 20px;            
+}
+.cardpg2 .cardset:hover .card2{
+    transform: rotate(+10deg);
+}
+.cardpg2 .frac{
+    position: absolute;
+    top: 270px;
+    left: 177px;
+    font-size: 35px;
+}
+.cardpg2 .ill{
+    position: absolute;
+    top: 300px;
+    left: 110px;
+    font-size: 55px;
+}
+.cardpg2 .cardset:hover .ill{
+font-size: 60px;
+transition: cubic-bezier(0.19, 1, 0.22, 1)0.7s;
+transform-origin: center;
+}
+.cardpg2 .txt{
+    position: absolute;
+    top: 400px;
+    width: 90%;
+    font-size: 20px;
+    left: 30%;
+}
+.cardpg2 .txt :nth-child(2){
+position: absolute;
+left: 20px;
+}
+.cardpg3{
+    z-index: 102;
+    height: 220%;
+    width: 100%;
+    background-color: #F3EEE8;
+    top: 600%;
+    position: absolute;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top: 1px transparent;
+}
+.cardpg3 .cardset{
+    display: flex;
+    height: 300px;
+    width: 30%;
+    /* background-color: yellow; */
+    left: 50%;
+    transform: translate(-50%,0);
+    position: absolute;
+}
+.cardpg3 .card1{
+    z-index: 99;
+    height: 250px;
+    width: 50%;
+    /* background-color: #d88a1d; */
+    transform: translate(+20%,0) rotate(-5deg);
+    transition: cubic-bezier(0.19, 1, 0.22, 1)0.7s;
+    transform-origin: bottom;
+    border-radius: 20px;
+}
+.cardpg3 .card1 video{
+    height: 100%;
+    border-radius: 20px;
+
+}
+.cardpg3 .cardset:hover .card1{
+    transform: rotate(-10deg);
+}
+.cardpg3 .card2{
+    height: 250px;
+    border-radius: 20px;
+    width: 50%;
+    /* background-color: #d88a1d; */
+    transform: translate(-10%,0);
+    transition: cubic-bezier(0.19, 1, 0.22, 1)0.7s;
+    transform-origin: bottom;
+}
+.cardpg3 .card2 video{
+    height: 100%;
+    border-radius: 20px;            
+}
+.cardpg3 .cardset:hover .card2{
+    transform: rotate(+10deg);
+}
+.cardpg3 .frac{
+    position: absolute;
+    top: 270px;
+    left: 177px;
+    font-size: 35px;
+}
+.cardpg3 .ill{
+    position: absolute;
+    top: 300px;
+    width: 300px;
+    /* background-color: aqua; */
+    left: 110px;
+    font-size: 55px;
+}
+.cardpg3 .cardset:hover .ill{
+font-size: 60px;
+transition: cubic-bezier(0.19, 1, 0.22, 1)0.7s;
+transform-origin: center;
+}
+.cardpg3 .txt{
+    position: absolute;
+    top: 450px;
+    width: 90%;
+    font-size: 20px;
+    left: 30%;
+}
+.cardpg3 .txt :nth-child(2){
+position: absolute;
+left: 20px;
+}
+.cardpg4{
+    z-index: 106;
+    height: 220%;
+    width: 100%;
+    background-color: #ffffff;
+    top: 700%;
+    position: absolute;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top: 1px transparent;
+}
+.cardpg4 .cardset{
+    display: flex;
+    height: 300px;
+    width: 30%;
+    /* background-color: yellow; */
+    left: 50%;
+    transform: translate(-50%,0);
+    position: absolute;
+}
+.cardpg4 .card1{
+    z-index: 99;
+    height: 250px;
+    width: 50%;
+    /* background-color: #d88a1d; */
+    transform: translate(+20%,0) rotate(-5deg);
+    transition: cubic-bezier(0.19, 1, 0.22, 1)0.7s;
+    transform-origin: bottom;
+    border-radius: 20px;
+}
+.cardpg4 .card1 img{
+    height: 100%;
+    border-radius: 20px;
+
+}
+.cardpg4 .cardset:hover .card1{
+    transform: rotate(-10deg);
+}
+.cardpg4 .card2{
+    height: 250px;
+    border-radius: 20px;
+    width: 50%;
+    /* background-color: #d88a1d; */
+    transform: translate(-10%,0);
+    transition: cubic-bezier(0.19, 1, 0.22, 1)0.7s;
+    transform-origin: bottom;
+}
+.cardpg4 .card2 img{
+    height: 100%;
+    border-radius: 20px;            
+}
+.cardpg4 .cardset:hover .card2{
+    transform: rotate(+10deg);
+}
+.cardpg4 .frac{
+    position: absolute;
+    top: 270px;
+    left: 177px;
+    font-size: 35px;
+}
+.cardpg4 .ill{
+    position: absolute;
+    top: 300px;
+    left: 110px;
+    font-size: 55px;
+}
+.cardpg4 .cardset:hover .ill{
+font-size: 60px;
+transition: cubic-bezier(0.19, 1, 0.22, 1)0.7s;
+transform-origin: center;
+}
+.cardpg4 .txt{
+    position: absolute;
+    top: 400px;
+    width: 90%;
+    font-size: 20px;
+    left: 30%;
+}
+.cardpg4 .txt :nth-child(2){
+position: absolute;
+left: 20px;
+}
+.cardpg5{
+    z-index: 107;
+    height: 220%;
+    width: 100%;
+    background-color: #F3EEE8;
+    top: 800%;
+    position: absolute;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top: 1px transparent;
+}
+.cardpg5 .cardset{
+    display: flex;
+    height: 300px;
+    width: 30%;
+    /* background-color: yellow; */
+    left: 50%;
+    transform: translate(-50%,0);
+    position: absolute;
+}
+.cardpg5 .card1{
+    z-index: 99;
+    height: 250px;
+    width: 50%;
+    /* background-color: #d88a1d; */
+    transform: translate(+20%,0) rotate(-5deg);
+    transition: cubic-bezier(0.19, 1, 0.22, 1)0.7s;
+    transform-origin: bottom;
+    border-radius: 20px;
+}
+.cardpg5 .card1 img{
+    height: 100%;
+    border-radius: 20px;
+
+}
+.cardpg5 .cardset:hover .card1{
+    transform: rotate(-10deg);
+}
+.cardpg5 .card2{
+    height: 250px;
+    border-radius: 20px;
+    width: 50%;
+    /* background-color: #d88a1d; */
+    transform: translate(-10%,0);
+    transition: cubic-bezier(0.19, 1, 0.22, 1)0.7s;
+    transform-origin: bottom;
+}
+.cardpg5 .card2 img{
+    height: 100%;
+    border-radius: 20px;            
+}
+.cardpg5 .cardset:hover .card2{
+    transform: rotate(+10deg);
+}
+.cardpg5 .frac{
+    position: absolute;
+    top: 270px;
+    left: 177px;
+    font-size: 35px;
+}
+.cardpg5 .ill{
+    position: absolute;
+    top: 300px;
+    width: 300px;
+    /* background-color: aqua; */
+    left: 110px;
+    font-size: 55px;
+}
+.cardpg5 .cardset:hover .ill{
+font-size: 60px;
+transition: cubic-bezier(0.19, 1, 0.22, 1)0.7s;
+transform-origin: center;
+}
+.cardpg5 .txt{
+    position: absolute;
+    top: 400px;
+    width: 90%;
+    font-size: 20px;
+    left: 37%;
+}
+.cardpg5 .txt :nth-child(2){
+position: absolute;
+left: 20px;
+}

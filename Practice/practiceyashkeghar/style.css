@@ -1,0 +1,37 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+}
+#panel{
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    margin: 20px;
+    height: 60%;
+    width: 40%;
+    background-color: lightcoral;
+    padding: 40px;
+}
+#cat1{
+    position: absolute;
+    left: 30%;
+
+}
+#cat2{
+    left: 50%;
+    position: absolute;
+}
+#div{
+    border-radius: 15px;
+    height: 30%;
+    width: 40%;
+    background-color:lightgreen;
+    margin: 20px;
+
+}

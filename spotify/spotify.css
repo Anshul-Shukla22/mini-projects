@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+    height: 100%;
+    width:100%;
+    
+}
+#main{
+
+    height:100%;
+    width:100%;
+    background-color: rgb(231, 211, 231);
+
+}
+#left{
+height: 84%;
+width: 25%;
+border-radius: 80px;
+position: absolute;
+top: 6%;
+left:25%;
+background-color: rgb(75, 70, 70);
+}
+#leftnav{
+    height: 6%;
+    width: 90%;
+    margin-top: 5%;
+    /* background-color: hotpink; */
+    /* border-top-right-radius: 40px; */
+    /* border-top-left-radius: 40px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    
+
+}
+/* #first{ */
+    
+/* } */
+i{
+    height: 10px;
+}
+#leftimage{
+    position: absolute;
+    top:10%;
+    /* padding: 40px 40px; */
+    /* margin-top: 10%; */
+    height: 53%;
+    width:90%;
+    background-image: url(https://www.mostmags.com/wp-content/uploads/2021/07/raatan-lambiyan.jpg);
+    background-size: cover;
+    /* border-top-left-radius: 70px; */
+    /* border-top-right-radius: 70px; */
+    /* background-color: turquoise; */
+    /* transform: translate(0 , 10%); */
+    margin-left: 5%;
+
+
+}
+#text p{
+    height: 6%;
+    width: 90%;
+    z-index: 40;
+    /* background-color: brown; */
+    font-size: 90px;
+    margin-top: 3%;
+    margin-left: 6%;
+    /* text-align: center; */
+    font-family: "oswald";
+    top:62%;
+    
+    position: absolute;
+}
+#line{
+    height: 10px;
+    margin-left: 5%;
+    width: 90%;
+    background-color: black;
+    position: absolute;
+    top:70%;
+
+}
+#line2{
+    height: 10px;
+    /* margin-left: 5%; */
+    width: 40%;
+    background-color: white;
+    position: absolute;
+    /* top:60%; */
+
+}
+#circle{
+    height: 29px;
+    width: 29px;
+    position: absolute;
+    left:99%;
+    transform: translate(0,-30%);
+    /* margin-left: 5%; */
+    border-radius: 100%;
+    background-color: white;
+}
+#text2{
+    height: 2%;
+    width: 90%;
+    margin-left: 5%;
+    /* background-color: yellow; */
+    position: absolute;
+    top:71%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+p{
+    font-size: 40px;
+    color: white;
+}
+#button{
+    width: 90%;
+    height: 7%;
+    position: absolute;
+    /* background-color: tomato; */
+    top:74%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#sbutton{
+    width:90%;
+    height:6%;
+    top:82%;
+    position: absolute;
+    /* background-color: turquoise; */
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bottom{
+    height: 10%;
+    width: 90%;
+    position: absolute;
+    top:90%;
+    background-color:brown;
+    margin-left: 5%;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+#bottomtext{
+    color:white;
+    font-size: 70px;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+#right{
+height: 84%;
+width: 25%;
+border-radius: 80px;
+position: absolute;
+top: 13%;
+left:53%;
+/* background-color: teal; */
+}
+#playsong #play{
+    display: none;
+}
+#playsong{
+    background-image: url('playimg.png');
+    height: 85px;
+    width: 85px;
+    /* background-color: aqua; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

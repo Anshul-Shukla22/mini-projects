@@ -1,0 +1,26 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 60%;
+    width: 50%;
+    border-radius: 15px;
+    background-color: rgb(145, 31, 145);
+    position: absolute;
+    left: 25%;
+    top: 20%;
+}
+#txt{
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+}
+#no{
+    margin: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+button{
+    margin: 70px;
+}

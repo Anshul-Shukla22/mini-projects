@@ -1,0 +1,13 @@
+button{
+    position: absolute;
+    /* left: 0%; */
+    /* display: none; */
+    background-color: red;
+}
+#file{
+    display: none;
+    /* background-color: red; */
+}
+button span{
+    background-color: white;
+}
